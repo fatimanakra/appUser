@@ -1,0 +1,107 @@
+.exemple-spacer{
+    flex : 1 1 auto;
+}
+.logo{
+    padding-right: 30px;
+}
+/* Style global pour le toolbar */
+/* Style pour le mat-toolbar */
+/* Style pour le mat-toolbar */
+mat-toolbar {
+    background-color: #964b74; /* Bleu primaire pour le toolbar */
+    color: rgb(10, 3, 3); /* Couleur du texte en blanc */
+    display: flex; /* Utilisez flex pour la mise en page */
+    align-items: center; /* Aligner les éléments au centre verticalement */
+    height: 50px; /* Hauteur du toolbar */
+    position: fixed; /* Fixe la barre d'outils en haut de la page */
+    top: 0; /* Aligne la barre d'outils en haut de la page */
+    width: 100%; /* Prend toute la largeur de la page */
+    z-index: 1000;
+    justify-content: space-between; /* Les éléments seront répartis sur la ligne */
+
+     /* Assure que le toolbar soit au-dessus du contenu */
+}
+
+  
+  .nav-links {
+    display: flex;
+    padding-left: 2rem;
+  }
+  
+  .nav-links a {
+    margin-right: 10px; /* Ajouter un peu d'espace entre les liens */
+  }
+  
+  .example-spacer {
+    flex: 1; /* Cet élément pousse les liens vers la gauche */
+  }
+/* Style pour le contenu de la page */
+.page-content {
+    padding-top: 80px; /* Correspond à la hauteur du mat-toolbar */
+    margin-top: 100px; /* Ajoute une marge supérieure équivalente à la hauteur du mat-toolbar */
+}
+
+
+  
+  /* Style pour les boutons d'icônes */
+
+
+  /* Style pour l'espaceur */
+  
+  
+  /* Style pour les liens de navigation */
+ /* Style global pour les liens de navigation */
+.nav-links a {
+    color: rgb(8, 2, 2); /* Couleur blanche pour les liens */
+    margin-right: 40px; /* Ajouter de l'espace entre les liens (15px) */
+    font-size: 20px; /* Taille de police moyenne */
+    text-decoration: none; /* Pas de soulignure */
+    
+}
+
+/* Effet d'hover pour les liens de navigation */
+.nav-links a:hover {
+    text-decoration: underline; /* Ajouter une soulignure survolée */
+    color: #83430fef; /* Changer la couleur des liens en gris clair lors du survol */
+}
+
+  /* Style pour les boutons de liens */
+  
+  
+  /* Style pour les boutons d'icônes */
+  mat-icon-button {
+    padding: 0 100px; /* Ajouter de l'espace entre les boutons */
+  }
+.container {
+   
+    /* Centre l'image horizontalement et verticalement */
+    height: 100vh; /* Définit la hauteur de la div pour couvrir la hauteur de la fenêtre */
+    display: flex; /* Utilise Flexbox pour centrer le contenu verticalement */
+    justify-content: center; /* Centre le contenu horizontalement */
+    align-items: center; /* Centre le contenu verticalement */
+   
+}
+.search-container {
+    display: flex; /* Utiliser Flexbox pour aligner les éléments horizontalement */
+    align-items: center; /* Aligner les éléments verticalement */
+    width: 50%; /* Prend toute la largeur disponible */
+    max-width: 300px; /* Limiter la largeur maximale */
+    border-radius: 10px; /* Ajouter des coins arrondis */
+  }
+  
+  .search-input {
+    flex: 1; /* Le champ de recherche prendra tout l'espace disponible */
+    border: none; /* Supprimer la bordure par défaut du champ de recherche */
+    padding: 8px; /* Ajouter un peu d'espace à l'intérieur du champ de recherche */
+  }
+  
+  .search-button {
+    background-color: transparent; /* Rendre le bouton transparent */
+    border: none; /* Supprimer la bordure du bouton */
+    cursor: pointer; /* Afficher un curseur pointer au survol */
+    padding: 8px; /* Ajouter un peu d'espace autour de l'icône */
+  }
+  
+ 
+
+  

@@ -1,0 +1,25 @@
+<mat-toolbar color="primary">
+ 
+ 
+  <body> 
+    <header>
+      <div class="logo"><h1> ASWAT</h1></div>
+     
+    </header>
+  </body>
+  <div class="nav-links">
+    <a nz-button nzType="link" routerLink="/admin/dashboard" routerLinkActive="active" >إقتصاد المغرب</a>
+    <a nz-button nzType="link" routerLink="/admin/dashboard" routerLinkActive="active" >إقتصاد الجزائر</a>
+    <a nz-button nzType="link" routerLink="/admin/dashboard" routerLinkActive="active" >إقتصاد موريطانيا</a>
+  </div>
+
+  <div class="search-container">
+    <input type="text" placeholder="Search" #filter class="search-input">
+    <button mat-icon-button (click)="toggleSearch()" class="search-button">
+      <mat-icon>search</mat-icon>
+    </button>
+  </div>
+  
+
+
+</mat-toolbar>
